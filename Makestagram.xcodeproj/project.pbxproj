@@ -15,6 +15,8 @@
 		4B9B3BD120F3CD240002E727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3BD020F3CD240002E727 /* GoogleService-Info.plist */; };
 		4B9B3BDB20F3CFAC0002E727 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3BDA20F3CFAC0002E727 /* Login.storyboard */; };
 		4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */; };
+		4B9B3BDF20F4027D0002E727 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BDE20F4027D0002E727 /* User.swift */; };
+		4B9B3BE120F409320002E727 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BE020F409320002E727 /* CreateUsernameViewController.swift */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		4B9B3BD020F3CD240002E727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B9B3BDA20F3CFAC0002E727 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B9B3BDE20F4027D0002E727 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4B9B3BE020F409320002E727 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,7 @@
 		4B9B3BD420F3CD880002E727 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4B9B3BDE20F4027D0002E727 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				4B1D6A7420F3BE4D0030ED53 /* ViewController.swift */,
 				4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */,
+				4B9B3BE020F409320002E727 /* CreateUsernameViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -300,8 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9B3BDF20F4027D0002E727 /* User.swift in Sources */,
 				4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */,
 				4B1D6A7520F3BE4D0030ED53 /* ViewController.swift in Sources */,
+				4B9B3BE120F409320002E727 /* CreateUsernameViewController.swift in Sources */,
 				4B1D6A7320F3BE4D0030ED53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

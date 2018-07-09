@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Makestagram
+//Users/emilyjewik/Desktop/Make School Projects/Makestagram-app/Makestagram/Storyboards/Login.storyboard//  Makestagram
 //
 //  Created by Emily Jewik on 7/9/18.
 //  Copyright © 2018 Emily Jewik. All rights reserved.
