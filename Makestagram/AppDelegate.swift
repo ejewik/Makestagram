@@ -15,12 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+   /* func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         print("testing2")
-       
+        
         let storyboard = UIStoryboard(name: "Login" , bundle: .main)
         
         if let initialViewController = storyboard.instantiateInitialViewController()
@@ -30,6 +29,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.makeKeyAndVisible()
             
         }
+        return true
+    }*/
+    
+   
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        FirebaseApp.configure()
+       
+        
+        //let storyboard = UIStoryboard(name: "Login" , bundle: .main)
+        
+        let initialViewController = UIStoryboard.initialViewController(for: .login)
+        
+            window?.rootViewController = initialViewController
+            
+            window?.makeKeyAndVisible()
+            
+        
         return true
     }
 
