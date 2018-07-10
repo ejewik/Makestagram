@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B1D6A7320F3BE4D0030ED53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7220F3BE4D0030ED53 /* AppDelegate.swift */; };
-		4B1D6A7520F3BE4D0030ED53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7420F3BE4D0030ED53 /* ViewController.swift */; };
 		4B1D6A7820F3BE4D0030ED53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7620F3BE4D0030ED53 /* Main.storyboard */; };
 		4B1D6A7A20F3BE4D0030ED53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7920F3BE4D0030ED53 /* Assets.xcassets */; };
 		4B1D6A7D20F3BE4D0030ED53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7B20F3BE4D0030ED53 /* LaunchScreen.storyboard */; };
@@ -28,7 +27,6 @@
 		151CEA2FA2B2084DD707759B /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		4B1D6A6F20F3BE4D0030ED53 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D6A7220F3BE4D0030ED53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B1D6A7420F3BE4D0030ED53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B1D6A7720F3BE4D0030ED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B1D6A7920F3BE4D0030ED53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1D6A7C20F3BE4D0030ED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 		4B9B3BD920F3CDAF0002E727 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B1D6A7420F3BE4D0030ED53 /* ViewController.swift */,
 				4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */,
 				4B9B3BE020F409320002E727 /* CreateUsernameViewController.swift */,
 			);
@@ -319,7 +316,6 @@
 				4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */,
 				4B9B3BE320F423F30002E727 /* UserService.swift in Sources */,
 				4B9B3BE720F556360002E727 /* Storyboard+Utility.swift in Sources */,
-				4B1D6A7520F3BE4D0030ED53 /* ViewController.swift in Sources */,
 				4B9B3BE520F54C7D0002E727 /* Constants.swift in Sources */,
 				4B9B3BE120F409320002E727 /* CreateUsernameViewController.swift in Sources */,
 				4B1D6A7320F3BE4D0030ED53 /* AppDelegate.swift in Sources */,
