@@ -86,7 +86,7 @@
         <!--Create Username View Controller-->
         <scene sceneID="Cso-0J-jiY">
             <objects>
-                <viewController id="fsm-KV-rk2" customClass="CreateUsernameViewController" sceneMemberID="viewController">
+                <viewController id="fsm-KV-rk2" customClass="CreateUsernameViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ztW-RJ-Ux4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="nextButtonTapped:" destination="fsm-KV-rk2" eventType="touchUpInside" id="klm-wG-v5N"/>
+                                            <action selector="nextButtonTapped:" destination="fsm-KV-rk2" eventType="touchUpInside" id="07T-Am-P1L"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -147,7 +147,7 @@
                         <viewLayoutGuide key="safeArea" id="jAG-w6-IMr"/>
                     </view>
                     <connections>
-                        <outlet property="nextButton" destination="i0W-qj-eMr" id="ps3-my-SJP"/>
+                        <outlet property="nextButton" destination="i0W-qj-eMr" id="nvv-Ch-i7H"/>
                         <outlet property="usernameTextField" destination="awM-gF-Tj3" id="v2A-Mx-3Tc"/>
                     </connections>
                 </viewController>

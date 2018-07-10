@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+        print("testing")
         
     }
     
@@ -47,16 +47,18 @@ class LoginViewController: UIViewController {
 
 extension LoginViewController: FUIAuthDelegate {
     func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
-        
         if let error = error {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
         }
         
+        // 1
         guard let user = user
             else { return }
         
+        // 2
         let userRef = Database.database().reference().child("users").child(user.uid)
+        
         userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
             if let user = User(snapshot: snapshot) {
                 print("Welcome back, \(user.username).")
@@ -64,5 +66,5 @@ extension LoginViewController: FUIAuthDelegate {
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
         })
-    }
+}
 }

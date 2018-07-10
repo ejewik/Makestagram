@@ -16,6 +16,8 @@ class CreateUsernameViewController: UIViewController {
     
     //Subviews
     @IBOutlet weak var usernameTextField: UITextField!
+    
+    
     @IBOutlet weak var nextButton: UIButton!
     
     //VC Lifecycle
@@ -56,5 +58,6 @@ class CreateUsernameViewController: UIViewController {
             })
         }
 }
-
 }
+
+
