@@ -5,7 +5,7 @@
 //  Created by Emily Jewik on 7/9/18.
 //  Copyright © 2018 Emily Jewik. All rights reserved.
 //
-/*
+
 import Foundation
 import FirebaseAuth.FIRUser
 import FirebaseDatabase
@@ -21,18 +21,15 @@ struct UserService {
                 assertionFailure(error.localizedDescription)
                 return completion(nil)
             }
-        }
-        //supposed to be userRef?
-            
+
             ref.observeSingleEvent(of: .value, with: { (snapshot) in
-                if let user = User(snapshot: snapshot) {
-                    print("Welcome back, \(user.username).")
-                } else {
-                    print("New user!")
-                }
-            })
-           }
+                let user = User(snapshot: snapshot)
+                completion(user)
+})
+}
+}
 }
 
 
-*/
+
+
