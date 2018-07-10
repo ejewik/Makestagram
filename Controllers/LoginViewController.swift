@@ -59,8 +59,9 @@ extension LoginViewController: FUIAuthDelegate {
         // 2
         let userRef = Database.database().reference().child("users").child(user.uid)
         
-        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
-            if let user = User(snapshot: snapshot) {
+       
+        UserService.show(forUID: user.uid) { (user) in
+            if let user = user {
                 User.setCurrent(user)
                 
                 let storyboard = UIStoryboard(name: "Main", bundle: .main)
@@ -72,6 +73,6 @@ extension LoginViewController: FUIAuthDelegate {
             } else {
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
-        })
+        }
 }
 }
