@@ -21,6 +21,8 @@
 		4B9B3BE720F556360002E727 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BE620F556360002E727 /* Storyboard+Utility.swift */; };
 		4B9B3BE920F57B0E0002E727 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BE820F57B0E0002E727 /* HomeViewController.swift */; };
 		4B9B3BEB20F57B200002E727 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BEA20F57B200002E727 /* FindFriendsViewController.swift */; };
+		4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1020F660FB0002E727 /* MainTabBarController.swift */; };
+		4B9B3C1520F668F30002E727 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1420F668F30002E727 /* MGPhotoHelper.swift */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,8 @@
 		4B9B3BE820F57B0E0002E727 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4B9B3BEA20F57B200002E727 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		4B9B3BEC20F65E500002E727 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		4B9B3C1020F660FB0002E727 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4B9B3C1420F668F30002E727 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,6 +188,7 @@
 		4B9B3BD320F3CD830002E727 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4B9B3C1420F668F30002E727 /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				4B9B3BE020F409320002E727 /* CreateUsernameViewController.swift */,
 				4B9B3BE820F57B0E0002E727 /* HomeViewController.swift */,
 				4B9B3BEA20F57B200002E727 /* FindFriendsViewController.swift */,
+				4B9B3C1020F660FB0002E727 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -506,8 +512,10 @@
 			files = (
 				4B9B3BDF20F4027D0002E727 /* User.swift in Sources */,
 				4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */,
+				4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */,
 				4B9B3BE320F423F30002E727 /* UserService.swift in Sources */,
 				4B9B3BE920F57B0E0002E727 /* HomeViewController.swift in Sources */,
+				4B9B3C1520F668F30002E727 /* MGPhotoHelper.swift in Sources */,
 				4B9B3BE720F556360002E727 /* Storyboard+Utility.swift in Sources */,
 				4B9B3BEB20F57B200002E727 /* FindFriendsViewController.swift in Sources */,
 				4B9B3BE520F54C7D0002E727 /* Constants.swift in Sources */,

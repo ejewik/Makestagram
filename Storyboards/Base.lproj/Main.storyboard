@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Koh-ZS-LNn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="Qam-3Q-3xH">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_home_black" id="Qam-3Q-3xH">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -38,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="x7h-Qi-6kB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="gEn-xu-ya8">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab_plus_black" id="gEn-xu-ya8">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="-606" y="-110"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="h6i-ZV-y71">
             <objects>
-                <tabBarController id="iUK-ly-Uxd" sceneMemberID="viewController">
+                <tabBarController id="iUK-ly-Uxd" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gJK-Ja-C6d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
