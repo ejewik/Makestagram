@@ -64,7 +64,7 @@ extension LoginViewController: FUIAuthDelegate {
             
         userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in // left this as userRef - does it matter?
             if let user = User(snapshot: snapshot) {
-                User.setCurrent(user)
+                User.setCurrent(user, writeToUserDefaults: true)
                 
                     let initialViewController = UIStoryboard.initialViewController(for: .main)
                     self.view.window?.rootViewController = initialViewController
