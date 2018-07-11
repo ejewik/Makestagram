@@ -23,6 +23,8 @@
 		4B9B3BEB20F57B200002E727 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BEA20F57B200002E727 /* FindFriendsViewController.swift */; };
 		4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1020F660FB0002E727 /* MainTabBarController.swift */; };
 		4B9B3C1520F668F30002E727 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1420F668F30002E727 /* MGPhotoHelper.swift */; };
+		4B9B3C1720F677C70002E727 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1620F677C70002E727 /* StorageService.swift */; };
+		4B9B3C1920F6790B0002E727 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1820F6790B0002E727 /* PostService.swift */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +130,8 @@
 		4B9B3BEC20F65E500002E727 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		4B9B3C1020F660FB0002E727 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		4B9B3C1420F668F30002E727 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		4B9B3C1620F677C70002E727 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		4B9B3C1820F6790B0002E727 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -205,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				4B9B3BE220F423F30002E727 /* UserService.swift */,
+				4B9B3C1620F677C70002E727 /* StorageService.swift */,
+				4B9B3C1820F6790B0002E727 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -511,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9B3BDF20F4027D0002E727 /* User.swift in Sources */,
+				4B9B3C1720F677C70002E727 /* StorageService.swift in Sources */,
 				4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */,
 				4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */,
 				4B9B3BE320F423F30002E727 /* UserService.swift in Sources */,
@@ -519,6 +526,7 @@
 				4B9B3BE720F556360002E727 /* Storyboard+Utility.swift in Sources */,
 				4B9B3BEB20F57B200002E727 /* FindFriendsViewController.swift in Sources */,
 				4B9B3BE520F54C7D0002E727 /* Constants.swift in Sources */,
+				4B9B3C1920F6790B0002E727 /* PostService.swift in Sources */,
 				4B9B3BE120F409320002E727 /* CreateUsernameViewController.swift in Sources */,
 				4B1D6A7320F3BE4D0030ED53 /* AppDelegate.swift in Sources */,
 			);
