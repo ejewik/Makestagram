@@ -28,6 +28,7 @@
 		4B9B3C1B20F67BAB0002E727 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1A20F67BAB0002E727 /* Post.swift */; };
 		4B9B3C1D20F6823D0002E727 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1C20F6823D0002E727 /* UIImage+Size.swift */; };
 		4B9B3C1F20F684C30002E727 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1E20F684C30002E727 /* StorageReference+Post.swift */; };
+		4B9B3C2120F696420002E727 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3C2020F696420002E727 /* Home.storyboard */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +139,7 @@
 		4B9B3C1A20F67BAB0002E727 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4B9B3C1C20F6823D0002E727 /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		4B9B3C1E20F684C30002E727 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		4B9B3C2020F696420002E727 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -227,6 +229,7 @@
 		4B9B3BD620F3CD960002E727 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				4B9B3C2020F696420002E727 /* Home.storyboard */,
 				4B1D6A7B20F3BE4D0030ED53 /* LaunchScreen.storyboard */,
 				4B1D6A7620F3BE4D0030ED53 /* Main.storyboard */,
 				4B1D6A7920F3BE4D0030ED53 /* Assets.xcassets */,
@@ -450,6 +453,7 @@
 				4B1D6A7D20F3BE4D0030ED53 /* LaunchScreen.storyboard in Resources */,
 				4B9B3BD120F3CD240002E727 /* GoogleService-Info.plist in Resources */,
 				4B1D6A7A20F3BE4D0030ED53 /* Assets.xcassets in Resources */,
+				4B9B3C2120F696420002E727 /* Home.storyboard in Resources */,
 				4B9B3BDB20F3CFAC0002E727 /* Login.storyboard in Resources */,
 				4B1D6A7820F3BE4D0030ED53 /* Main.storyboard in Resources */,
 			);

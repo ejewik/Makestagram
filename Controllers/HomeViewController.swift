@@ -7,7 +7,18 @@
 //
 
 import Foundation
+import UIKit
 
-class HomeViewController {
+class HomeViewController: UIViewController {
     
+    
+    //subviews
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    //VC Lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
