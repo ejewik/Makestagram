@@ -29,6 +29,7 @@
 		4B9B3C1D20F6823D0002E727 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1C20F6823D0002E727 /* UIImage+Size.swift */; };
 		4B9B3C1F20F684C30002E727 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C1E20F684C30002E727 /* StorageReference+Post.swift */; };
 		4B9B3C2120F696420002E727 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3C2020F696420002E727 /* Home.storyboard */; };
+		4B9B3C2320F6A5790002E727 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C2220F6A5790002E727 /* PostImageCell.swift */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +141,7 @@
 		4B9B3C1C20F6823D0002E727 /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		4B9B3C1E20F684C30002E727 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		4B9B3C2020F696420002E727 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4B9B3C2220F6A5790002E727 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -251,6 +253,7 @@
 		4B9B3BD820F3CDA30002E727 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4B9B3C2220F6A5790002E727 /* PostImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -478,6 +482,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -535,6 +540,7 @@
 				4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */,
 				4B9B3BE320F423F30002E727 /* UserService.swift in Sources */,
 				4B9B3C1B20F67BAB0002E727 /* Post.swift in Sources */,
+				4B9B3C2320F6A5790002E727 /* PostImageCell.swift in Sources */,
 				4B9B3C1D20F6823D0002E727 /* UIImage+Size.swift in Sources */,
 				4B9B3BE920F57B0E0002E727 /* HomeViewController.swift in Sources */,
 				4B9B3C1520F668F30002E727 /* MGPhotoHelper.swift in Sources */,
