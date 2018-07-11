@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -91,6 +92,64 @@
                                             <outlet property="postImageView" destination="jmS-IF-xbN" id="W6k-Ka-V0X"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostActionCell" rowHeight="46" id="pKZ-6J-kku" customClass="PostActionCell" customModule="Makestagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="457" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pKZ-6J-kku" id="jmh-tu-1f2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtd-lt-Jvy">
+                                                    <rect key="frame" x="2" y="0.0" width="45.5" height="45.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Vtd-lt-Jvy" secondAttribute="height" multiplier="1:1" id="up1-mZ-wdr"/>
+                                                    </constraints>
+                                                    <state key="normal" image="btn_heart_black_outline"/>
+                                                    <connections>
+                                                        <action selector="likeButtonTapped:" destination="pKZ-6J-kku" eventType="touchUpInside" id="SNg-2U-w0t"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQn-sd-0an">
+                                                    <rect key="frame" x="47.5" y="11" width="48" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31 MINUTES AGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggU-ln-TvN">
+                                                    <rect key="frame" x="267" y="0.0" width="93" height="45.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lst-Uq-y6j">
+                                                    <rect key="frame" x="15" y="45" width="345" height="0.5"/>
+                                                    <color key="backgroundColor" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="0.5" id="ocH-QY-VJ7"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="ggU-ln-TvN" secondAttribute="bottom" id="89S-K0-lxM"/>
+                                                <constraint firstItem="Lst-Uq-y6j" firstAttribute="leading" secondItem="jmh-tu-1f2" secondAttribute="leading" constant="15" id="FpI-0w-xpX"/>
+                                                <constraint firstAttribute="bottom" secondItem="Lst-Uq-y6j" secondAttribute="bottom" id="Iw1-Ob-ScT"/>
+                                                <constraint firstAttribute="bottom" secondItem="Vtd-lt-Jvy" secondAttribute="bottom" id="KbR-mr-TeH"/>
+                                                <constraint firstItem="Vtd-lt-Jvy" firstAttribute="top" secondItem="jmh-tu-1f2" secondAttribute="top" id="TN3-YT-T7f"/>
+                                                <constraint firstItem="ggU-ln-TvN" firstAttribute="top" secondItem="jmh-tu-1f2" secondAttribute="top" id="U6N-ww-t8L"/>
+                                                <constraint firstItem="Vtd-lt-Jvy" firstAttribute="leading" secondItem="jmh-tu-1f2" secondAttribute="leading" constant="2" id="XAM-0S-aFb"/>
+                                                <constraint firstItem="aQn-sd-0an" firstAttribute="top" secondItem="jmh-tu-1f2" secondAttribute="topMargin" id="nuY-VO-vPh"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="aQn-sd-0an" secondAttribute="bottom" id="oWm-3G-TP8"/>
+                                                <constraint firstItem="aQn-sd-0an" firstAttribute="leading" secondItem="Vtd-lt-Jvy" secondAttribute="trailing" id="rau-pO-apT"/>
+                                                <constraint firstAttribute="trailing" secondItem="Lst-Uq-y6j" secondAttribute="trailing" constant="15" id="sTO-xj-tes"/>
+                                                <constraint firstAttribute="trailing" secondItem="ggU-ln-TvN" secondAttribute="trailing" constant="15" id="yax-f1-EcI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="likeButton" destination="Vtd-lt-Jvy" id="dmq-Dx-DRn"/>
+                                            <outlet property="likeCountLabel" destination="aQn-sd-0an" id="5iG-L5-VrR"/>
+                                            <outlet property="timeAgoLabel" destination="ggU-ln-TvN" id="5fg-XR-XAX"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="VMd-ra-rqa" id="uGh-L3-ryh"/>
@@ -138,8 +197,23 @@
             </objects>
             <point key="canvasLocation" x="-607.20000000000005" y="552.77361319340332"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="PX4-Ps-Z23">
+            <objects>
+                <viewController id="jRT-Eg-rkO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bl7-DN-vRl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="I1t-WP-zmz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0JK-nO-G9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
+        <image name="btn_heart_black_outline" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
