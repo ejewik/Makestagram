@@ -33,6 +33,7 @@
 		4B9B3C2320F6A5790002E727 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3C2220F6A5790002E727 /* PostImageCell.swift */; };
 		4BE5580220F6C9B300D948A0 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5580120F6C9B300D948A0 /* PostHeaderCell.swift */; };
 		4BE5581220F6CD6700D948A0 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5581120F6CD6700D948A0 /* PostActionCell.swift */; };
+		4BF9761020F7D64200AA2364 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9760F20F7D64200AA2364 /* FollowService.swift */; };
 		EB8EBA49AF477B0F37E1802B /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +156,7 @@
 		4B9B3C2220F6A5790002E727 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		4BE5580120F6C9B300D948A0 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		4BE5581120F6CD6700D948A0 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		4BF9760F20F7D64200AA2364 /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
 		6748D1BABD766B5900D0615C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -238,6 +240,7 @@
 				4B9B3C1620F677C70002E727 /* StorageService.swift */,
 				4B9B3C1820F6790B0002E727 /* PostService.swift */,
 				4B4427BF20F7AE330073C538 /* LIkeService.swift */,
+				4BF9760F20F7D64200AA2364 /* FollowService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF9761020F7D64200AA2364 /* FollowService.swift in Sources */,
 				4B9B3BDF20F4027D0002E727 /* User.swift in Sources */,
 				4B9B3C1720F677C70002E727 /* StorageService.swift in Sources */,
 				4B4427C020F7AE330073C538 /* LIkeService.swift in Sources */,
