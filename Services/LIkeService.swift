@@ -24,7 +24,23 @@ struct LikeService {
                 assertionFailure(error.localizedDescription)
                 return success(false)
             }
-            return success(true)
+            let likeCountRef = Database.database().reference().child("posts").child(post.poster.uid).child(key).child("like_count")
+            likeCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                
+                mutableData.value = currentCount + 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            }, andCompletionBlock: { (error, _, _) in
+                if let error = error {
+                    assertionFailure(error.localizedDescription)
+                    success(false)
+                } else {
+                    success(true)
+                }
+            })
+            
+           
         }
     }
     
@@ -41,7 +57,24 @@ struct LikeService {
                 assertionFailure(error.localizedDescription)
                 return success(false)
             }
-            return success(true)
+            
+            let likeCountRef = Database.database().reference().child("posts").child(post.poster.uid).child(key).child("like_count")
+            likeCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                
+                mutableData.value = currentCount - 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            }, andCompletionBlock: { (error, _, _) in
+                if let error = error {
+                    assertionFailure(error.localizedDescription)
+                    success(false)
+                    
+                } else {
+                    success(true)
+                }
+            })
+            
         }
     }
 }
