@@ -35,6 +35,7 @@ class User: Codable {
     
     let uid: String
     let username: String
+    var isFollowed = false
     
     // Mark: - Init
     
