@@ -37,7 +37,7 @@ class Post {
             let imageHeight = dict["image_height"] as? CGFloat,
             let createdAgo = dict["created_at"] as? TimeInterval,
             
-            let likeCount = dict["poster"] as? Int,
+            let likeCount = dict["like_count"] as? Int,
             let userDict = dict["poster"] as? [String : Any],
             let uid = userDict["uid"] as? String,
             let username = userDict["username"] as? String
