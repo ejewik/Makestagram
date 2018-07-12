@@ -11,6 +11,7 @@
 		4B1D6A7820F3BE4D0030ED53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7620F3BE4D0030ED53 /* Main.storyboard */; };
 		4B1D6A7A20F3BE4D0030ED53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7920F3BE4D0030ED53 /* Assets.xcassets */; };
 		4B1D6A7D20F3BE4D0030ED53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D6A7B20F3BE4D0030ED53 /* LaunchScreen.storyboard */; };
+		4B4427C020F7AE330073C538 /* LIkeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4427BF20F7AE330073C538 /* LIkeService.swift */; };
 		4B9B3BD120F3CD240002E727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3BD020F3CD240002E727 /* GoogleService-Info.plist */; };
 		4B9B3BDB20F3CFAC0002E727 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B3BDA20F3CFAC0002E727 /* Login.storyboard */; };
 		4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */; };
@@ -131,6 +132,7 @@
 		4B1D6A7920F3BE4D0030ED53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1D6A7C20F3BE4D0030ED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1D6A7E20F3BE4D0030ED53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4427BF20F7AE330073C538 /* LIkeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIkeService.swift; sourceTree = "<group>"; };
 		4B9B3BD020F3CD240002E727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B9B3BDA20F3CFAC0002E727 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4B9B3BDC20F3D7BF0002E727 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				4B9B3BE220F423F30002E727 /* UserService.swift */,
 				4B9B3C1620F677C70002E727 /* StorageService.swift */,
 				4B9B3C1820F6790B0002E727 /* PostService.swift */,
+				4B4427BF20F7AE330073C538 /* LIkeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 			files = (
 				4B9B3BDF20F4027D0002E727 /* User.swift in Sources */,
 				4B9B3C1720F677C70002E727 /* StorageService.swift in Sources */,
+				4B4427C020F7AE330073C538 /* LIkeService.swift in Sources */,
 				4B9B3BDD20F3D7BF0002E727 /* LoginViewController.swift in Sources */,
 				4B9B3C1120F660FB0002E727 /* MainTabBarController.swift in Sources */,
 				4B9B3BE320F423F30002E727 /* UserService.swift in Sources */,
