@@ -11,6 +11,8 @@ import UIKit
 
 class PostActionCell : UITableViewCell {
     
+    static let height: CGFloat = 46
+    
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var likeCountLabel: UILabel!
     @IBOutlet weak var timeAgoLabel: UILabel!
